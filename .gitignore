@@ -1,0 +1,12 @@
+/.vscode/
+/.idea/
+/dist/
+/dist-ssr/
+/node_modules/
+
+*.local
+*.log
+
+._*
+.DS_Store
+Thumbs.db
