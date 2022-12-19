@@ -1,11 +1,13 @@
-/.vscode/
 /.idea/
+/.vscode/
 /dist/
-/dist-ssr/
 /node_modules/
 
-*.local
+*.d.ts
+*.map
 *.log
+*.swp
+*.lock
 
 ._*
 .DS_Store

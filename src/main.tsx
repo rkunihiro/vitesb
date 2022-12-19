@@ -1,15 +1,12 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import { App } from "./components/App";
+import { App } from "./components/app";
 
-addEventListener("load", () => {
-    const container = document.getElementById("root");
+function onLoad() {
+    const container = document.getElementById("container");
     if (container) {
-        createRoot(container).render(
-            <StrictMode>
-                <App />
-            </StrictMode>,
-        );
+        createRoot(container).render(<App />);
     }
-});
+}
+
+addEventListener("load", onLoad);

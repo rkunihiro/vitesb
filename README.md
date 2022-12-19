@@ -1,1 +1,1 @@
-# Vite sandbox (TypeScript + ReactJS)
+# Vite + Vitest sandbox (TypeScript / React)
